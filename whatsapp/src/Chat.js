@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Chat.css';
 import { Avatar, IconButton } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import AttachFileIcon from '@mui/icons-material/AttachFile';
+//import AttachFileIcon from '@mui/icons-material/AttachFile';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import MicIcon from '@mui/icons-material/Mic';
@@ -19,7 +19,7 @@ function Chat() {
         e.preventDefault();
         console.log("You typed >>> ",input);
         setInput("");
-    }
+    };
 
     return (
         <div className="chat">
@@ -37,7 +37,7 @@ function Chat() {
                     </IconButton>
 
                     <IconButton>
-                        <AttachFileIcon />
+                        {/* <AttachFileIcon /> */}
                     </IconButton>
 
                     <IconButton>
