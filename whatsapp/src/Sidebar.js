@@ -5,7 +5,7 @@ import './Sidebar.css';
 import React, { useEffect, useState} from 'react';
 import { Avatar, IconButton } from '@mui/material';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
-import ChatIcon from '@mui/icons-material/Chat';
+ import ChatIcon from '@mui/icons-material/Chat';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SearchIcon from '@mui/icons-material/Search';
 
